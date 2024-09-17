@@ -1,5 +1,27 @@
 ### Project: **Deploying a Scalable Web Application Using Red Hat OpenShift**
 
+```mermaid
+graph TD
+    A[User] -->|Sends Request| B[Web Server]
+    B -->|Fetches Data| C[Application Server]
+    C -->|Queries| D[Database]
+    B -->|Serves Static Content| E[Static Files]
+    
+    subgraph Deployment
+        B
+        C
+        D
+    end
+
+    subgraph External Services
+        E
+    end
+
+    style Deployment fill:#f9f,stroke:#333,stroke-width:2px
+    style External Services fill:#ccf,stroke:#333,stroke-width:2px
+```
+
+
 #### **Objective:**
 
 Deploy a scalable web application using Red Hat OpenShift for container orchestration, Red Hat Enterprise 

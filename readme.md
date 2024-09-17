@@ -55,8 +55,7 @@ firewalls.
 		```
 	- **Download and Extract OpenShift Installer:**
 	```bash
-	wget 
-https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-client-linux-<version>.tar.gz
+	wget https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-client-linux-<version>.tar.gz
 	tar -xvf openshift-client-linux-<version>.tar.gz
 	sudo mv oc kubectl /usr/local/bin/
 	```

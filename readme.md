@@ -25,7 +25,7 @@ firewalls.
     -   Install necessary updates:
 
 		```bash
-		sudo hostnamectl set-hostname openshift-master
+		sudo yum update -y
 		```
 
 	- Configure networking and hostname:
